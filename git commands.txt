@@ -1,0 +1,14 @@
+git config --global user.name "username"
+git config --global user.email 
+git config --global --list
+git init
+git status
+git add "filename" 
+git commit -m "tag"
+git branch -M main
+git add remote origin "remote Link"
+git push -u origin main
+git checkout -b "new branch"
+
+git remote remove origin
+rm -rf .git
